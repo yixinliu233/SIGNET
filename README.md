@@ -2,7 +2,7 @@ This is the source code of NeurIPS'23 paper "Towards Self-Interpretable Graph-Le
 
 ![The proposed framework](pipeline.png)
 
-##Usage##
+## Usage
 
 1. prepare datasets
 
@@ -11,7 +11,7 @@ This is the source code of NeurIPS'23 paper "Towards Self-Interpretable Graph-Le
 2) Unzip Mutagenicity.zip and Mutagenicity.pkl.zip
 3) Put the raw data files in ./data/mutag/raw
 -- MNIST:
-1) Raw data files need to be generated following the instruction at: https://github.com/bknyaz/graph_attention_pool/blob/master/scripts/mnist_75sp.sh
+1) Raw data files need to be generated following the instructions at: https://github.com/bknyaz/graph_attention_pool/blob/master/scripts/mnist_75sp.sh
 2) Put the generated files in ./data/mnist/raw
 -- Others:
 Download and process automatically
@@ -22,8 +22,6 @@ For example:
 ```
 python main.py --dataset AIDS --epoch 1000 --lr 0.0001 --hidden_dim 16
 ```
-
-##Cite##
 
 ## Cite
 
