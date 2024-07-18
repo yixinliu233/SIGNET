@@ -4,19 +4,21 @@ This is the source code of NeurIPS'23 paper "Towards Self-Interpretable Graph-Le
 
 ## Usage
 
-1. prepare datasets
+### Step 1: prepare datasets
 
--- Mutag:
+- Mutag:
 1) Raw data files need to be downloaded at: https://github.com/flyingdoog/PGExplainer/tree/master/dataset
 2) Unzip Mutagenicity.zip and Mutagenicity.pkl.zip
 3) Put the raw data files in ./data/mutag/raw
--- MNIST:
+
+- MNIST:
 1) Raw data files need to be generated following the instructions at: https://github.com/bknyaz/graph_attention_pool/blob/master/scripts/mnist_75sp.sh
 2) Put the generated files in ./data/mnist/raw
--- Others:
+
+- Others:
 Download and process automatically
 
-2. run script line in scripts.sh
+### Step 2: run script line in scripts.sh
 
 For example:
 ```
